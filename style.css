@@ -220,6 +220,9 @@
     display: flex; 
     justify-content: space-evenly;
     flex-wrap: wrap;
+    height: 72vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .tab :checked ~ .tab-title .menu-bar__item-img {
     transition: 0.5s;
@@ -342,7 +345,7 @@ footer:hover p::before{
         background-color: #ffffff;
         display: flex;
         justify-content: space-between;
-        align-items: end;
+        align-items: center;
         height: 12vh;
     }
     .menu-bar__item-img{
@@ -363,6 +366,7 @@ footer:hover p::before{
         transform: scale(1);
         transition: 0.5s;
         padding-top: calc(var(--index) * 0.4);
+        height: 7.5vh;
     }
     .menu-bar__item-text:hover{
         transform: scale(1.15);
@@ -373,12 +377,15 @@ footer:hover p::before{
         width: 20%;
         height: 80%;
     }
+    .tab-title{
+        height: 100%;
+    }
     .tab :checked ~ .tab-title::after {
         content: "";
         height: .2vh;
         background-color: var(--main-color);
         position: absolute;
-        top: 8.3vh;
+        /* top: 8.3vh; */
         width: 100%;
         animation: underline 1s ;
     }
@@ -403,17 +410,10 @@ footer:hover p::before{
         display: flex;
     }
 }
-@media(min-width: 1350px){
-    .tab :checked ~ .tab-title::after {
-        top: 8.7vh;
-    }
-}
 @media (min-width: 1500px) {
     .menu-bar__item-text{
         width: calc(var(--index) * 10);
         padding-top: 0;
-    }
-    .menu-bar__item-text{
         font-size: calc(var(--index) * 0.75);
     }
 }
