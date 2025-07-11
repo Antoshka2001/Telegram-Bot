@@ -56,6 +56,12 @@
 
 /* ----------- Card ----------- */
     
+/* Accordion */
+.accordion{
+    width: 45vw;
+}
+
+
 /* Dropdown */
 .dropdown{
     display: flex;
