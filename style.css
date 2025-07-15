@@ -137,7 +137,7 @@
 
 /* ----------- Card ----------- */
 .accordion{
-    width: 45vw;
+    width: 90vw;
 }
 .accordion-collapse{
     padding: calc(var(--index) * 0.8);
@@ -250,6 +250,9 @@ footer:hover p::before{
 }
 
 @media (min-width: 1200px) {
+    .accordion{
+        width: 45vw;
+    }   
     .manage__title{
         font-size: calc(var(--index) * 1.5);
     }
