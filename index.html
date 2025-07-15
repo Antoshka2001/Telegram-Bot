@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
-
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-
     <title>Dev IT</title>
 </head>
 <body>
-
 
     <div class="manage">
         <p class="manage__title">Dev IT</p>
@@ -25,11 +22,7 @@
         </div>
     </div>
 
-
-    <div class="courses">
-        
-    </div>
-
+    <div class="courses"></div>
 
     <div class="menu-bar">
 
@@ -44,133 +37,40 @@
                     <input type="radio" name="MenuItem" id="">
                 </div>
             </label> 
-<!-- Сюда выводить карточку -->
             <section class="tab-content">
-
-                <div class="card">
-                    <div class="dropdown">
-                        <div class="card-about">
-                            <div class="card-imgandinfo">
-                                <img src="images/Html.png" class="card-logo" alt="">
-                                <div class="card-abouttext">
-                                    <p class="card-text--title">WEB</p>
-                                    <p class="card-text">(HTML/CSS)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="card-opensvg" data-bs-toggle="collapse" href="#Drop" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            <svg viewBox="0 0 297.11 451.61">
-                                <path class="cls-1" d="M290.22,318.65l-123.88,124.94-.97,1.04c-4.15,4.18-9.61,6.61-16.07,6.97l-2.17-.02c-5.12-.3-10.01-2.26-14.39-6.11l-1.5-1.46L6.9,318.65c-9.19-9.27-9.19-24.26,0-33.53,9.25-9.33,24.29-9.33,33.53,0l85.86,86.57V23.76c0-13.1,10.56-23.76,23.65-23.76s23.66,10.66,23.66,23.76V368.88s83.08-83.77,83.08-83.77c9.25-9.33,24.29-9.33,33.54,0,9.19,9.27,9.19,24.26,0,33.53Z"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="collapse" id="Drop">
-                        <div class="card-info">
-                            <div class="card-aboutcourse">
-                                <p class="card-text--title">О курсе</p>
-                                <p class="card-text">Этот курс предназначен для изучения верстки сайтов на языках разметки HTML и стилей CSS. </p>
-                            </div>
-                            <div class="card-topics">
-                                <p class="card-text--title">Темы внутри курса:</p>
-                                <p class="card-text"> HTML, CSS, Flex, Grid, препроцессор (SCSS), </p>
-                            </div>
-                        </div>
-                        <div class="card-buttons">
-                            <input class="card-freebutton" type="button" value="Бесплатное занятие">
-                            <input class="card-buybutton" type="button" value="Цена">
-                        </div>
-                    </div>
-                </div>
-               
-
-
-                <div class="card">
-                    <div class="dropdown">
-                        <div class="card-about">
-                            <div class="card-imgandinfo">
-                                <img src="images/Html.png" class="card-logo" alt="">
-                                <div class="card-abouttext">
-                                    <p class="card-text--title">WEB</p>
-                                    <p class="card-text">(HTML/CSS)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="card-opensvg" data-bs-toggle="collapse" href="#Drop1" role="button">
-                            <svg viewBox="0 0 297.11 451.61">
-                                <path class="cls-1" d="M290.22,318.65l-123.88,124.94-.97,1.04c-4.15,4.18-9.61,6.61-16.07,6.97l-2.17-.02c-5.12-.3-10.01-2.26-14.39-6.11l-1.5-1.46L6.9,318.65c-9.19-9.27-9.19-24.26,0-33.53,9.25-9.33,24.29-9.33,33.53,0l85.86,86.57V23.76c0-13.1,10.56-23.76,23.65-23.76s23.66,10.66,23.66,23.76V368.88s83.08-83.77,83.08-83.77c9.25-9.33,24.29-9.33,33.54,0,9.19,9.27,9.19,24.26,0,33.53Z"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="collapse" id="Drop1">
-                        <div class="card-info">
-                            <div class="card-aboutcourse">
-                                <p class="card-text--title">О курсе</p>
-                                <p class="card-text">Этот курс предназначен для изучения верстки сайтов на языках разметки HTML и стилей CSS. </p>
-                            </div>
-                            <div class="card-topics">
-                                <p class="card-text--title">Темы внутри курса:</p>
-                                <p class="card-text"> HTML, CSS, Flex, Grid, препроцессор (SCSS), </p>
-                            </div>
-                        </div>
-                        <div class="card-buttons">
-                            <input class="card-freebutton" type="button" value="Бесплатное занятие">
-                            <input class="card-buybutton" type="button" value="Цена">
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
+                <!-- Пример карточки -->
+                <div class="accordion" >
+                    <div class="accordion accordion-item">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            
                             <div class="card-about">
-                                <div class="card-imgandinfo">
-                                    <img src="images/Html.png" class="card-logo" alt="">
-                                    <div class="card-abouttext">
-                                        <p class="card-text--title">WEB</p>
-                                        <p class="card-text">(HTML/CSS)</p>
-                                    </div>
+                                <img src="images/Html.png" class="card-logo" alt="">
+                                <div class="card-abouttext">
+                                    <p class="card-text--title">WEB</p>
+                                    <p class="card-text">(HTML/CSS)</p>
                                 </div>
                             </div>
-
                         </button>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div class="card-info">
-                                    <div class="card-aboutcourse">
-                                        <p class="card-text--title">О курсе</p>
-                                        <p class="card-text">Этот курс предназначен для изучения верстки сайтов на языках разметки HTML и стилей CSS. </p>
-                                    </div>
-                                    <div class="card-topics">
-                                        <p class="card-text--title">Темы внутри курса:</p>
-                                        <p class="card-text"> HTML, CSS, Flex, Grid, препроцессор (SCSS), </p>
-                                    </div>
+                            <div class="card-info">
+                                <div class="card-aboutcourse">
+                                    <p class="card-text--title">О курсе</p>
+                                    <p class="card-text">Этот курс предназначен для изучения верстки сайтов на языках разметки HTML и стилей CSS. </p>
                                 </div>
-                                <div class="card-buttons">
-                                    <input class="card-freebutton" type="button" value="Бесплатное занятие">
-                                    <input class="card-buybutton" type="button" value="Цена">
+                                <div class="card-topics">
+                                    <p class="card-text--title">Темы внутри курса:</p>
+                                    <p class="card-text"> HTML, CSS, Flex, Grid, препроцессор (SCSS), </p>
                                 </div>
+                            </div>
+                            <div class="card-buttons">
+                                <input class="card-freebutton" type="button" value="Бесплатное занятие">
+                                <input class="card-buybutton" type="button" value="Цена">
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-            
-
-
-
-
-
-
-
             </section>
         </div> 
+
 
         <div class="tab">
             <input type="radio" id="tab2" name="tab-group">
@@ -183,9 +83,9 @@
                     <input type="radio" name="MenuItem" id="">
                 </div>
             </label> 
-<!-- Сюда выводить карточку -->
             <section class="tab-content">Два</section>
         </div>
+
 
         <div class="tab">
             <input type="radio" id="tab3" name="tab-group">
@@ -206,9 +106,9 @@
                     <input type="radio" name="MenuItem" id="">
                 </div>
             </label> 
-<!-- Сюда выводить карточку -->
             <section class="tab-content">Три</section> 
         </div> 
+
 
         <div class="tab">
             <input type="radio" id="tab4" name="tab-group">
@@ -225,10 +125,10 @@
                     <input type="radio" name="MenuItem" id="">
                 </div>
             </label> 
-<!-- Сюда выводить карточку -->
             <section class="tab-content">Четыре</section> 
         </div> 
     </div>
+
 
     <footer>
         <p>Telegram</p>
